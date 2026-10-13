@@ -14,7 +14,7 @@ Data de consulta de les fonts: **13 d’octubre de 2026**. Materials originals c
 
 I3, I4 i I5: edats habituals de 3 a 6 anys. Primària: 1r–2n, cicle inicial; 3r–4t, mitjà; 5è–6è, superior. Edats habituals de 6 a 12 anys. Els cursos orienten la selecció però no determinen la capacitat individual.
 
-El banc evita presentar una distribució pròpia com un temari obligatori per curs. Les unitats es comparteixen dins de cada cicle. Valors i convivència són transversals; l’àrea de Valors Cívics i Ètics es vincula orientativament a cicle superior i el centre concreta la seva impartició. La llengua estrangera inicial del banc és anglès.
+El banc evita presentar una distribució pròpia com un temari obligatori per curs. Hi ha unitats compartides dins de cada cicle i propostes específiques per curs. Els 15 camins d’aprenentatge suggereixen un ordre i no bloquegen cap activitat ni estableixen llindars de puntuació. Valors i convivència són transversals; l’àrea de Valors Cívics i Ètics es vincula orientativament a cicle superior i el centre concreta la seva impartició. La llengua estrangera inicial del banc és anglès.
 
 ## Seqüència de treball
 
@@ -34,8 +34,10 @@ Les activitats motrius i experimentals requereixen supervisió i espais segurs; 
 
 ## Límits i ampliació pendent
 
-Aquest banc no representa cobertura completa de cap curs. Falten més progressions de lectura, vocabulari, ortografia i gramàtica, numeració i operacions, divisió, geometria, mesura, dades, coneixement del medi i llengües. No hi ha aranès, segona llengua estrangera ni materials específics de religió segons el centre. Tampoc no hi ha perfils d’alumnes ni eines de diagnòstic.
+El banc té 144 unitats, però no representa cobertura completa de cap curs. Falten més progressions de lectura, vocabulari, ortografia i gramàtica, numeració i operacions, divisió, geometria, mesura, dades, coneixement del medi i llengües. No hi ha aranès, segona llengua estrangera ni materials específics de religió segons el centre. Tampoc no hi ha perfils d’alumnes ni eines de diagnòstic.
 
-Per afegir una unitat a `education/content.js`, cal concretar objectiu, explicació, preguntes amb retorn, producció, pauta de revisió, aplicació i observació; després revisar-ne llengua i rigor pedagògic. No afegir targetes de contingut buit.
+Per afegir una unitat a `education/extension.js` amb un identificador estable, cal concretar objectiu, explicació, preguntes amb retorn, producció, pauta de revisió, aplicació i observació; després revisar-ne llengua i rigor pedagògic. No afegir targetes de contingut buit. No canviar els identificadors existents: el seguiment local depèn d’aquests identificadors.
 
 Abans de cada ampliació o curs escolar, revisar fonts oficials i la data de consulta. Registrar els canvis i validar la correspondència amb sabers i criteris d’avaluació. La data visible és de consulta, no una garantia que s’han auditat totes les disposicions normatives.
+
+La planificació de sessions permet combinar fins a sis unitats i imprimir-les en l’ordre triat. La selecció es desa al dispositiu i no conté noms ni perfils d’alumnes. Les pràctiques d’ortografia reutilitzen preguntes del banc per consolidar-les; no es compten com a activitats originals addicionals.

@@ -168,5 +168,6 @@ function showQuiz(){let q=questions[quizIndex];$('quiz').innerHTML='<small class
 $('surprise').onclick=()=>{let i=Math.floor(Math.random()*chapters.length);let v=assignment[i][0];volumeIndex=v;shelfIndex=shelves.findIndex(f=>v>=f.range[0]&&v<f.range[1]);switchTab('historia');readStory(i)};
 </script>
 <script src="education/content.js"></script>
+<script src="education/extension.js"></script>
 <script src="education/school.js"></script>
 </body></html>

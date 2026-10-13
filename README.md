@@ -11,9 +11,13 @@ Es pot obrir `index.html` o servir aquesta carpeta amb un servidor estàtic. Per
 
 ## Banc de reforç inicial
 
-66 unitats originals: 12 d’infantil, 6 ponts de bases i 16 per cada cicle de primària. Cada unitat té explicació, dues preguntes amb retorn, una producció i una aplicació pràctica. Totes tenen orientacions de revisió i observació. Algunes incorporen jocs de frases o quantitats. Aquest és un primer banc, **no tot el currículum**.
+144 unitats originals: 18 d’infantil, 6 ponts de bases i 40 per cada cicle de primària. Cada unitat té explicació, dues preguntes amb retorn, una producció i una aplicació pràctica. Totes tenen orientacions de revisió i observació. Hi ha 15 camins d’aprenentatge i pràctiques de frases, quantitats, operacions i ortografia. Aquest és un primer banc, **no tot el currículum**.
 
-Les unitats de primària són compartides entre els cursos del cicle. «Comencem», «Practiquem» i «Ho apliquem» canvien l’acompanyament recomanat; no són proves estandarditzades ni tres temaris diferents. A infantil l’adult llegeix i s’accepten respostes orals, gestuals o amb dibuix.
+Hi ha unitats compartides entre cursos del cicle i propostes específiques de cada curs; la distribució és orientativa. «Comencem», «Practiquem» i «Ho apliquem» canvien l’acompanyament recomanat; no són proves estandarditzades ni tres temaris diferents. A infantil l’adult llegeix i s’accepten respostes orals, gestuals o amb dibuix.
+
+## Preparar una sessió
+
+El botó «Afegir a la sessió» de cada unitat permet triar fins a sis materials. L’espai de l’educador en mostra la selecció, permet pujar, baixar i treure unitats i imprimir les fitxes juntes. La selecció es desa localment, separada de les respostes. El temps total és orientatiu; les unitats es poden repartir en diverses sessions.
 
 ## Dades i privacitat
 
