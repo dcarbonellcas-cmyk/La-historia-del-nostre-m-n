@@ -1,0 +1,30 @@
+[
+  {
+    "key": "atlas",
+    "prompt": "Use case: historical-scene. Asset: wide hero image for a Catalan interactive history atlas. A beautiful photorealistic imaginative historical journey: richly textured antique open atlas on a wooden desk, a small brass globe and compass, with a cinematic miniature landscape of Egyptian pyramids, a classical Mediterranean temple and medieval stone buildings emerging from the pages. This is clearly artistic imagination, not a reconstruction of one real location. Warm soft daylight, terracotta, sage green and parchment cream, luxurious natural materials, realistic texture and depth, sophisticated museum editorial aesthetic. Landscape 3:2, no typography, no letters, no watermark, no flat geometric vector style. Compose main subject centrally with safe cropping for website cards."
+  },
+  {
+    "key": "origins",
+    "prompt": "Use case: scientific-educational. Asset: landscape image for origins of the universe section of history atlas. Photorealistic cinematic astronomical artist impression of a young rocky Earth seen from space, blue atmosphere, cloud formations, stars and a soft glowing nebula far away. Natural believable astrophotography textures, restrained warm gold and deep teal, wonder and depth, no buildings, no people, no dinosaur, no text, no watermark, no flat illustration. Landscape 3:2 with centered subject safe for cropping. An artist impression, not a claim of observational photography."
+  },
+  {
+    "key": "ancient",
+    "prompt": "Use case: historical-scene. Asset: landscape cover for ancient civilizations. Photorealistic view of the real Great Pyramids of Giza from desert ground at golden morning light, ancient stone texture and soft atmospheric haze, dignified landscape, no fantasy building, no modern skyline, no tourist props, no people, no text, no watermark. Warm golden sandstone, terracotta and muted sage shadows, elegant museum editorial photographic aesthetic. Landscape 3:2, centered pyramid composition safe for crop. AI-generated representation of an actual heritage site."
+  },
+  {
+    "key": "medieval",
+    "prompt": "Use case: historical-scene. Asset: landscape cover for medieval histories. Photorealistic atmospheric imagined medieval Mediterranean walled town: stone towers, warm ochre buildings, tiled roofs, a quiet cobbled street, distant hills with olive trees. Historically plausible buildings without claiming a specific place, no modern objects, no fantasy spires or dragons. Soft morning daylight, warm cream stone, terracotta roofs and sage greenery, cinematic realism, subtle grain, rich details. Landscape 3:2; centered architecture safe for crop, no text, no watermark, no flat vector style."
+  },
+  {
+    "key": "modern",
+    "prompt": "Use case: historical-scene. Asset: landscape cover for early modern era. Photorealistic historical artist reconstruction of a small late-fifteenth-century sailing caravel at sea seen from shore, plausible wooden hull and cream sails, calm deep teal Mediterranean-like water, distant warm sunlit coastline, beautiful golden late afternoon light. No modern boats, no oversized fantasy galleon, no text, no watermark, no vector style. Warm parchment, terracotta and sage palette, museum cinematic realism, landscape 3:2, ship centered safe for cropping. Illustrative historical scene, not archival photography."
+  },
+  {
+    "key": "industry",
+    "prompt": "Use case: historical-scene. Asset: landscape cover for nineteenth century and world wars. Photorealistic imagined nineteenth-century industrial town with a red-brick mill, tall factory chimney, a steam locomotive at the edge of the scene and cobbled streets, subtle smoke haze, accurate pre-electric era feel, no modern cars, no text or signage, no watermark. Warm terracotta brick and cream morning light with muted teal shadows. Rich natural textures, dignified historical museum editorial look. Landscape 3:2, major structures centered for cropping, not a specific documented city."
+  },
+  {
+    "key": "today",
+    "prompt": "Use case: photorealistic-natural. Asset: landscape cover for contemporary world history. A realistic editorial photograph-like imagined modern Mediterranean city beside water, layered contemporary buildings, a few warm terracotta older roofs and green trees, people as small natural distant figures on a promenade, no recognizable claimed real location, no brands, no logos, no text, no watermark. Natural golden daylight, sophisticated cream and sage tones, atmospheric detail and cinematic depth, no vector illustration. Landscape 3:2, skyline centered with safe website card cropping."
+  }
+]

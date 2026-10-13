@@ -1,0 +1,22 @@
+{
+  "uruk-aster.jpg": {
+    "title": "Ancient Uruk, Iraq (ASTER)",
+    "source": "https://asterweb.jpl.nasa.gov/gallery/images/uruk.jpg",
+    "catalogue": "https://commons.wikimedia.org/wiki/File:Ancient_Uruk,_Iraq_(ASTER).jpg",
+    "credit": "NASA/JPL · ASTER",
+    "note": "Satellite view of the actual site; not a historical reconstruction."
+  },
+  "generated": {
+    "tool": "Built-in image generation",
+    "prompts": "prompts-imatges-ia.json",
+    "files": [
+      "atlas-ia.jpg",
+      "origins-ia.jpg",
+      "ancient-ia.jpg",
+      "medieval-ia.jpg",
+      "modern-ia.jpg",
+      "industry-ia.jpg",
+      "today-ia.jpg"
+    ]
+  }
+}
