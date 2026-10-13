@@ -1,31 +1,27 @@
 # La història del nostre món
 
-Aplicació estàtica en català, amb 30 relats introductoris organitzats en 30 volums i 6 etapes, un mapa OpenStreetMap amb 14 llocs, fitxes en finestres, cerca i preguntes.
+Aplicació estàtica en català amb 30 relats introductoris, 2.802 lectures cronològiques, 177 territoris acolorits i 14 llocs destacats. Els textos s’obren dins de la pàgina amb apartats desplegables, opcions per obrir-los i plegar-los i lectura en veu alta quan el dispositiu disposa d’una veu catalana.
 
 ## Obrir-la
 
-Serviu aquesta carpeta amb qualsevol servidor de fitxers estàtics, per exemple `python3 -m http.server 8765`, i obriu http://localhost:8765. No cal instal·lar dependències ni executar una compilació. GitHub Pages publica la branca main amb el flux existent.
+Serviu aquesta carpeta amb un servidor de fitxers estàtics, per exemple `python3 -m http.server 8765`, i obriu http://localhost:8765. No cal instal·lar dependències ni compilar. GitHub Pages publica la branca main amb el flux existent. La proposta de canvis continua en una branca separada; no s’ha fusionat automàticament.
 
-## Contingut i limitacions
+## Lectures internes
 
-Els relats són introduccions, no històries exhaustives. Els nous relats inclouen enllaços a les fonts al lector. S’han conservat els 15 relats originals i s’hi han afegit 15 introduccions. El mapa té 14 llocs seleccionats; els punts sense relat ho indiquen. Xcaret, Egipte i Uruk tenen fites locals específiques. Les altres fitxes ofereixen el context conegut i les lectures pendents.
+Les 2.730 fitxes del catàleg inicial, 72 lectures temàtiques, 177 territoris del mapa i 14 llocs disposen de textos locals a `data/readings/`. El manifest associa cada identificador amb un paquet de lectures. Només es descarrega el paquet necessari per obrir un text.
 
-La veu requereix una veu catalana al dispositiu i un navegador amb Speech Synthesis. No són audiollibres gravats. Les fotografies remotes són d’ambientació; les imatges de portada i d’èpoques són creades amb IA, es desen localment i no representen reconstruccions arqueològiques verificades. El mapa i les fotografies necessiten connexió; si una foto falla es mostra una il·lustració local.
+Els textos de consulta de la Viquipèdia catalana es reutilitzen sota CC BY-SA 4.0, amb autoria, historial, revisió i llicència als crèdits de cada lectura. Es reformaten en apartats; no inclouen les imatges ni les taules originals. La introducció d’Egipte s’ha corregit contrastant fonts museístiques i s’hi indica la modificació. Els 30 relats introductoris es distingeixen dels textos de referència. No cal obrir cap enllaç extern per llegir els continguts.
+
+La col·lecció no és una història universal exhaustiva i les fitxes importades no estan totes revisades individualment. El catàleg inicial està dominat per conflictes i tractats. Les lectures afegides cobreixen també ciència, art, vida quotidiana, idees i drets. Els temes que abasten molts segles tenen un període general de referència a la cronologia; una sola data no indica que tot el tema pertanyi a aquell any.
+
+## Mapa i imatges
+
+Els polígons de Natural Earth són de domini públic i representen les fronteres actuals, que no equivalen a les històriques. La resolució simplificada no inclou tots els microestats. El cursor, el tacte i el teclat permeten seleccionar una zona i obrir-ne una lectura interna. Els marcadors i les targetes de llocs obren lectures locals.
+
+Set portades i escenes d’ambientació creades amb IA es desen a `assets/`; els textos dels encàrrecs consten a `assets/prompts-imatges-ia.json`. No són reconstruccions arqueològiques verificades. Uruk utilitza una imatge real ASTER de NASA/JPL. Les altres fotografies remotes són d’ambientació. El mapa necessita Leaflet, que es carrega des d’un servei extern.
 
 ## Validació
 
-Sintaxi de JavaScript, cobertura dels 30 volums i comprovació al navegador del lector, de les fonts, del joc, de la cerca i de la finestra de Xcaret. Disseny revisat en amplada petita. La disponibilitat d’una veu catalana depèn del dispositiu.
+Comprovació de sintaxi JavaScript, correspondència de totes les lectures amb el manifest i presència de text per als 2.993 registres locals. Prova al navegador de la lectura de Hastings, els controls per obrir i plegar els 18 apartats i la lectura d’Egipte des del mapa. La disponibilitat de veu catalana depèn del navegador i del dispositiu.
 
-## Imatges creades amb IA
-
-Set imatges creades amb l’eina integrada de generació d’imatges: portada amb un atles imaginari, Terra des de l’espai, piràmides, ciutat medieval, caravel·la, ciutat industrial i ciutat contemporània. Els prompts complets s’inclouen a `assets/prompts-imatges-ia.json`. Les fotografies remotes originals continuen sent imatges d’ambientació.
-
-## Ampliació cronològica i mapa acolorit
-
-La biblioteca conserva 30 relats. El catàleg afegeix 2.730 fitxes breus procedents de Wikidata, totes amb article de la Viquipèdia catalana, organitzades en les sis etapes i ordenades cronològicament. Inclou sobretot batalles, guerres i tractats, amb revolucions, expedicions i moviments socials. No és un catàleg exhaustiu ni ha rebut una verificació editorial individual. Les fitxes no es compten com a relats desenvolupats.
-
-La consulta reproduïble és a `data/history-query.rq`. Les dades estructurades són CC0. Es conserva la precisió i el calendari original de les dates, es converteix la numeració astronòmica dels anys BCE i es mostren les datacions alternatives. Alguns episodis tradicionals coneguts s’etiqueten explícitament com a historicitat discutida; aquesta selecció d’etiquetes tampoc és exhaustiva.
-
-El mapa utilitza 177 formes territorials simplificades de Natural Earth (domini públic), una paleta de set colors i previsualització en passar el cursor, en tocar o amb el teclat. No inclou tots els microestats i les formes no equivalen a fronteres històriques. Hi ha context local relacionat amb deu territoris. En altres zones, es busca un fragment d’una pàgina d’història en català; el fragment identifica la Viquipèdia i la seva llicència CC BY-SA. Si no hi ha resposta o relat, la fitxa ho indica i ofereix les fonts.
-
-Validació addicional: cobertura i ordenació de les 2.730 fitxes, anys BCE, cerca dins d’una etapa, obertura de fonts, 177 zones accessibles, context d’Egipte i consulta de França, imatges en mòbil i ordinador.
+Versió privada publicada: https://la-historia-del-nostre-mon-diana.wiryrose64.chatgpt.site
